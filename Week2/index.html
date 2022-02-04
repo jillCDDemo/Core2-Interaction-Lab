@@ -15,11 +15,11 @@
 	<!-- Embedded Content -->
 
 	<header>
-		<h1>This will be a cool demo</h1>
+		<h1 id="target1">This will be a cool demo</h1>
 	</header>
 
 	<main>
-		<p id="target1">The demo is meant to help you accomplish your requirements for <b>project 1</b>. It will teach you about <em>Text Formatting, </em> <a href="https://www.w3schools.com/html/html_links.asp">hyperlinks</a> (internal and external), embedding content and basic structuring of a web page. Additionally, we'll also style the webpage using CSS. </p>
+		<p >The demo is meant to help you accomplish your requirements for <b>project 1</b>. It will teach you about <em>Text Formatting, </em> <a href="https://www.w3schools.com/html/html_links.asp">hyperlinks</a> (internal and external), embedding content and basic structuring of a web page. Additionally, we'll also style the webpage using CSS. </p>
 
 		<h3>Make a longggg paragraph to see the internal link in action</h3>
 
@@ -53,6 +53,38 @@
 				<a href="page1.html">Relative URL</a>
 			</li>
 		</ul>
+
+		<h3>Images can be links too!</h3>
+
+		<!-- images within a tag -->
+		<a href="https://www.tutorialspoint.com/html/html_image_links.htm" target="_blank">
+			<img src="https://www.tutorialspoint.com/html/images/logo.png" alt="tutorialspoint" border="2"/>
+		</a>
+
+
+		<!-- image alone with onMouse events -->
+		<img id="changeImage"src="http://www.rachelgallen.com/images/daisies.jpg" 
+		onMouseOver="this.src='http://www.rachelgallen.com/images/snowdrops.jpg';"
+		onMouseOut="this.src='http://www.rachelgallen.com/images/daisies.jpg';"/>
+
+		<!-- input tage with type image (needs an onclick event) -->
+		<input type="image" src="http://www.rachelgallen.com/images/snowdrops.jpg" height="400px" width="400px" href="page1.html"/>
+
+		<!-- adding buttons and button styling -->
+		<button class="button1"></button>
+
+		<!-- CSS Selectors -->
+		<h3>One major thing to learn and know about CSS is how to use proper <a href="https://www.w3schools.com/css/css_selectors.asp"> selectors</a></h3>
+
+		<ul>
+			
+			<li><p class="eleClass" id="idSelector">ID Selectors</p></li>
+			<li><p class="classSelector">Class Selectors</p></li>
+			<li><p class="eleClass">Element Class Selector</p></li>
+			<li><p>Just plain element Selector</p></li>
+			
+		</ul>
+
 		
 	</main>
 

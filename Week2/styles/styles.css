@@ -39,3 +39,36 @@ p{
 li{
 	font-size: 20px;
 }
+
+#changeImage{
+	height: 400px;
+	width: 400px;
+}
+
+
+button{
+	height: 300px;
+	width: 300px;
+	/*background-color: yellow;*/
+	background-image: url("https://freepngimg.com/thumb/mario/20698-7-mario-transparent-background.png");
+	background-size: 100%;
+}
+
+button:active{
+  /*background-color:green;*/
+  background-image: url("https://www.kindpng.com/picc/m/3-36382_small-mario-png-transparent-png.png");
+  background-size: 100%;
+}
+
+#idSelector{
+	color: red;
+}
+
+.classSelector{
+	background-color: yellow;
+}
+
+p.eleClass{
+	text-decoration: underline;
+}
+
