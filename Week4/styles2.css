@@ -73,9 +73,23 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .container, .navbar {   
+@media screen and (max-width: 1000px) and (min-width:  700px) {
+  /*.container, .navbar {   
     flex-direction: column;
     font-size: smaller;
+  }*/
+  /*.main{
+    background-color: darkred;
+  }*/
+  
+}
+
+@media screen and (orientation: landscape){
+  .main{
+    background-color: yellow;
+  }
+
+  .navbar{
+    display: none;
   }
 }
